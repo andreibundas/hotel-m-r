@@ -1,0 +1,126 @@
+
+.section {
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+/* .sectionCamere {
+    background-color:  var(--color-grey);
+} */
+
+.camere-set2 {
+    /* max-width: 1310px; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 5%;
+    margin: 0 auto;
+} 
+
+/* .aside {
+    margin-left: 140px;
+} */
+
+.camere-set2 {
+    /* display: flex; */
+    /* background-color: #FCF9F6; */
+    /* width: 100%; */
+    /* display: flex; */
+    /* padding: 1% 0; */
+}
+
+/* .img-camera {
+    width: 40%;
+    padding: 10%;
+} */
+
+.img-camera img {
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    height: 700px;
+    width: 600px;
+
+    /* width: 75%;
+    height: auto; */
+
+}
+.img-camera img:hover {
+ transform: scale(1.2);
+ border-radius: 10% 30% 10% 30%;
+}
+
+/* .text-camera {
+    width: 40%;
+} */
+
+/* .text-camera-c {
+    width: 500px;
+    margin: 15%;
+} */
+
+.img-camera img {
+    /* height: 800px;
+    width: 700px; */
+    border-radius: 30% 10% 30% 10%;
+}
+
+.img-s {
+    /* height: 800px;
+    width: 700px; */
+    /* border-radius: 10% 30% 10% 30%; */
+}
+
+@media (max-width: 700px) {
+    .img-camera img {
+        padding: 20px;
+        height: 600px;
+        width: 520px;
+        border-radius: 30% 30% 30% 30%;
+    } 
+    .img-camera img:hover {
+        transform: none;
+        /* border-radius: 10% 30% 10% 30%; */
+       }
+    }
+
+    @media (max-width: 500px) {
+        .img-camera img  {
+            padding: 20px;
+            height: 400px;
+            width: 300px;
+            border-radius: 30% 30% 30% 30%;
+        } 
+        .img-camera img:hover {
+            transform: none;
+            /* border-radius: 10% 30% 10% 30%; */
+           }
+        }
+
+        @media (max-width: 400px) {
+            .img-camera img  {
+                /* padding: 20px; */
+                height: 300px;
+                width: 220px;
+                border-radius: 30% 30% 30% 30%;
+            } 
+            .img-camera img:hover {
+                transform: none;
+                /* border-radius: 10% 30% 10% 30%; */
+               }
+            }
+
+        @media (max-width: 300px) {
+            .img-camera img  {
+                padding: 20px;
+                height: 250px;
+                width: 200px;
+                border-radius: 30% 30% 30% 30%;
+            } 
+            .img-camera img:hover {
+                transform: none;
+                /* border-radius: 10% 30% 10% 30%; */
+               }
+            }

@@ -1,0 +1,58 @@
+.footer {
+    /* background-color: var(--color-tertiary); */
+
+    /* background-color: #cfcdca; */
+    background-color: #323131;
+
+
+    padding: 10px;
+}
+
+.grid-container { 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.grid-container > div {
+    align-self:center;
+    
+}
+
+#copy {
+    margin-top: 80px;
+    color: --blue;
+}
+
+#booking {
+    margin-left: 35px;
+}
+
+@media (max-width: 800px) {
+    .grid-container { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    } 
+    
+
+/* .footer-grid-item :nth-child(2) {
+    padding-top: 2px;
+}
+
+.footer-grid-item :nth-child(3) {
+    padding-bottom: 2px;
+}
+
+.socialMedia {
+    color: white;
+    margin: 20px;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  
+  .footer p {
+    color: white;
+  } */

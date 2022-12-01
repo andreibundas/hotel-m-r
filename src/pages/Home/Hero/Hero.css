@@ -1,0 +1,156 @@
+
+.div-hero {
+    background-color: #FCF9F6;
+    /* background-color: blue; */
+
+    /* width: 100%; */
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 20px 20px 150px 20px;
+}
+
+.img-div .imgH {
+    padding: 40px;
+    /* display: block; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    height: 700px;
+    width: 900px;
+    border-radius: 30% 30% 30% 30%;
+} 
+
+.img-div h1 {
+    text-align: center;
+    padding: 10px;
+    color: var(--color-primary);
+}
+
+.span {  
+    text-align: center;
+    padding: 10px;
+    color: var(--color-primary);
+}
+
+.imgH:hover {
+    transform: scale(1.1);
+    border-radius: 10% 30% 10% 30%;
+   }
+
+@media (max-width: 800px) {
+    .img-div .img {
+        padding: 20px;
+        height: 600px;
+        width: 800px;
+        border-radius: 30% 30% 30% 30%;
+    } 
+    .imgH:hover {
+        transform: none;
+        /* border-radius: 10% 30% 10% 30%; */
+       }
+    }
+
+    @media (max-width: 500px) {
+        .img-div .img {
+            padding: 20px;
+            height: 400px;
+            width: 500px;
+            border-radius: 30% 30% 30% 30%;
+        } 
+        .imgH:hover {
+            transform: none;
+            /* border-radius: 10% 30% 10% 30%; */
+           }
+        }
+
+        @media (max-width: 400px) {
+            .img-div .img {
+                padding: 20px;
+                height: 300px;
+                width: 370px;
+                border-radius: 30% 30% 30% 30%;
+            } 
+            .imgH:hover {
+                transform: none;
+                /* border-radius: 10% 30% 10% 30%; */
+               }
+            }
+
+        @media (max-width: 300px) {
+            .img-div .img {
+                padding: 20px;
+                height: 250px;
+                width: 300px;
+                border-radius: 30% 30% 30% 30%;
+            } 
+            .imgH:hover {
+                transform: none;
+                /* border-radius: 10% 30% 10% 30%; */
+               }
+            }
+
+
+/* .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 600px;
+} */
+
+
+
+/* .hero-container {
+    display: flex;
+    background-color: #FCF9F6;
+
+    width: 100%;
+    display: flex;
+    padding: 90px 0;
+}
+
+.hero {
+    width: 50%;
+}
+
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 7000px;
+    width: 600px;
+    border-radius: 30% 30% 10% 10%;
+}
+
+.text-img h1 {
+text-align: center;
+padding: 10px;
+color: var(--color-primary);
+}
+ */
+
+   
+
+
+
+/* .hero-img {
+    height: 100vh;
+    background-image: url('../../../assests/magnific1.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    top: 40%;
+}
+
+.hero-content p {
+    font-size: 20px;
+} */
